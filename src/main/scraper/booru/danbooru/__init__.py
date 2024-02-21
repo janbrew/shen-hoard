@@ -51,7 +51,7 @@ class DanbooruDownloader:
                     url = url.replace(re.search(r"\bd=(\d+)(&)", url).group(1), "1&page=" + str(page))
                 
                 else:
-                    url = url.replace(re.search(r"\bpage=(/d+)(&|$)", url).group(1), str(page))
+                    url = url.replace(re.search(r"\bpage=(\d+)(&|$)", url).group(1), str(page))
             else:
                 url = url.replace(re.search(r"\bpage=(\d+)(&|$)", url).group(1), str(page))
 
