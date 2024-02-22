@@ -10,9 +10,19 @@ Shenanigan hoarding. Scraping random content from image boards and stuff
 - dotenv
 - click
 
+## Setup
+
+i. Download the ZIP file of the repo and extract it
+ii. Create a virtual environment inside the project (optional, but recommended)
+iii. Run the command on a terminal inside the project
+
+    pip install --editable .
+
+iv. Done
+
 ## Usage
 
-    py scraper.py {command} {args}
+    py scraper {command} {args}
 
 ### Commands
 - danbooru
