@@ -1,6 +1,9 @@
 import click
 import os
-from src.main.scraper import *
+from booru import *
+from yandere import YandereDownloader
+from nhentai import nHentaiDownloader
+from zerochan import ZerochanDownloader
 
 BOORU_HELP = {
     "url" : "The website url to scrape",
